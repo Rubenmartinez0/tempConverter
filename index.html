@@ -4,8 +4,6 @@
         <!-- Import custom css -->
         <link rel="stylesheet" href="css/style.css">
 
-        <!-- Bootsrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <!-- Import JQuery/AJAX -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -13,13 +11,19 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-        <title>Temperature Conversor</title>
+        <title>Temperature Converter</title>
     </head>
     <body>
         <div class="container col-12 redBg">
-            <input id="celsiusI" type="number" class="col-12 mb-2" placeholder="Celsius ºC">
-            <input id="kelvinI" type="number" class="col-12 mb-2" placeholder="Kelvin K">
-            <input id="fahrenheitI"  type="number" class="col-12" placeholder="Fahrenheit ºF">
+            <div id="celsiusDiv">
+                <input id="celsius" type="number" placeholder="Celsius">
+            </div>
+            <div id="kelvinDiv">
+                <input id="kelvin" type="number" placeholder="Kelvin">
+            </div>  
+            <div id="fahrenheitDiv">
+                <input id="fahrenheit"  type="number" placeholder="Fahrenheit">
+            </div>
         </div>
         
         
