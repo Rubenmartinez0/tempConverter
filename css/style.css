@@ -1,3 +1,53 @@
-.redBg{
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+
+div{
+    height: 33.33vh;
+}
+#kelvinDiv{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+input[type=number]{
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    font-size: 10em;
+    text-align: center;
+    border: 0;
+    font-family: Do Hyeon, sans-serif;
+}
+
+/* ::placeholder{
+    color: gray;
+} */
+
+/* Hiding input arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::-webkit-input-placeholder{
+    color: gray;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+::-moz-placeholder{
+    color: gray;
 }
