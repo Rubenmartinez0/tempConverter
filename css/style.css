@@ -26,6 +26,7 @@ input[type=number]{
     font-size: 10em;
     text-align: center;
     border: 0;
+    outline: none;
     font-family: Do Hyeon, sans-serif;
 }
 
